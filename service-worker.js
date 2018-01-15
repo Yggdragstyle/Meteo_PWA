@@ -1,4 +1,4 @@
-var cacheName = 'meteo_PWA-app-v-1.1';
+var cacheName = 'meteo_PWA-app-v-1.2';
 
 var filesToCache = [
 	'./',
