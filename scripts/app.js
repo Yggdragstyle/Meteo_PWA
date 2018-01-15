@@ -313,3 +313,13 @@ console.log("APP JS");
 
   // TODO add service worker code here
 })();
+
+
+// Mise en CACHE de l'application
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           // .register('./service-worker.js')
+           .register('scripts/service-worker.js')
+           .then(function() { console.log('Service Worker Registered'); });
+}
+
